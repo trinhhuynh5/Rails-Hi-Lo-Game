@@ -1,3 +1,3 @@
 Rails.application.routes.draw do
-  get '/answers' => 'main#answers'
+  get '/answers' => 'main'
 end
