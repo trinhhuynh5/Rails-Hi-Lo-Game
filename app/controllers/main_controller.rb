@@ -1,4 +1,4 @@
-class MainController 
+class MainController < ApplicationController    # MISSING < ApplicationController
 
   def answers
     if params[:number].to_i.even?
